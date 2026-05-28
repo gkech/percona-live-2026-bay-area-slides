@@ -253,8 +253,6 @@ spec:
 
 ## Disaster Recovery: What the Operator Does
 
-**Cross-region / cross-cloud standby clusters**, synced through object storage, no direct network link required between sites.
-
 | Operator | DR primitive |
 |---|---|
 | PostgreSQL | pgBackRest repo-based standby + streaming replication |
